@@ -7,7 +7,19 @@
     font-family: 'Poppins', sans-serif;
 }
 
+.tengah {
+    vertical-align: middle;
+}
+
 .form-control {
     font-size: 0.9rem;
     padding: 1.5rem 1rem;
+}
+
+body {
+    background-color: white;
+}
+
+.btn-white:hover {
+    background-color: rgb(235, 235, 235);
 }
