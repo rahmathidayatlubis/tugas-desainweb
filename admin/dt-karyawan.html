@@ -8,12 +8,14 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>Irphonsel | Data Admin</title>
   </head>
   <body>
+
+    <!-- pembuka navbar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top" style="box-shadow: 0px 10px 10px rgba(0,0,0,0.1)">
-      <a class="navbar-brand" href="dashboard.html"><img src="img/home.svg" alt="" width="30px"></a>
+      <a class="navbar-brand" href="dashboard.html"><img src="/img/home.svg" alt="" width="30px"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,7 +26,7 @@
             <a class="nav-link" href="profile.html">Profil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="admin.html">Admin</a>
+            <a class="nav-link active" href="dt-karyawan.html">Karyawan</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="pelanggan.html">Pelanggan</a>
@@ -38,8 +40,8 @@
         </ul>
         <form class="form-inline my-2 my-lg-0">
           <div class="my-2 my-sm-0 btn btn-white rounded-0">
-            <a href="index.html" style="text-decoration: none;">
-            <img src="img/box-arrow-right.svg" alt="" style="width: 25px;">
+            <a href="/index.html" style="text-decoration: none;">
+            <img src="/img/box-arrow-right.svg" alt="" style="width: 25px;">
             <!-- Logout -->
           </a>
           </div>
@@ -52,7 +54,7 @@
     <div class="container-fluid mt-3">
       <div class="row">
         <div class="col">
-          <span class="align-baseline" style="font-size: 20px"><b>DATA ADMIN</b></span>
+          <span class="align-baseline" style="font-size: 20px"><b>DATA KARYAWAN</b></span>
 				  <hr>
           <div class="row">
             <div class="col-md-8">
@@ -62,7 +64,7 @@
               <form class="form-inline">
                 <input class="form-control mr-sm-2 rounded-pill" type="search" placeholder="Search" aria-label="Search" style="width: 361px;">
                 <button class="btn btn-success rounded-circle my-2 my-sm-0" type="submit" style="height: 50px; width: 50px;">
-                  <img src="img/search.svg" alt="" width="20px">
+                  <img src="/img/search.svg" alt="" width="20px">
                 </button>
               </form>
             </div>
@@ -72,7 +74,7 @@
                   <tr>
                     <th scope="col">No</th>
                     <th scope="col">Nama</th>
-                    <th scope="col">Alamat</th>
+                    <th scope="col">Jabatan</th>
                     <th scope="col">Username</th>
                     <th scope="col">Password</th>
                     <td align="center" colspan="2" scope="col"><strong>Aksi</strong></td>
@@ -81,37 +83,28 @@
                 <tbody>
                   <tr>
                     <th scope="row" style="vertical-align: middle;">1</th>
-                    <td style="vertical-align: middle;">Intan</td>
-                    <td style="vertical-align: middle;">Sei silau</td>
-                    <td style="vertical-align: middle;">febri</td>
-                    <td style="vertical-align: middle;">123</td>
+                    <td style="vertical-align: middle;">Edi</td>
+                    <td style="vertical-align: middle;">Teknisi</td>
+                    <td style="vertical-align: middle;">Edi98</td>
+                    <td style="vertical-align: middle;">NamakuEdi98</td>
                     <td align="center"><span class="btn btn-success">&nbsp;Edit&ensp;</span></td>
                     <td align="center"><span class="btn btn-danger">Hapus</span></td>
                   </tr>
                   <tr>
                     <th scope="row" style="vertical-align: middle;">2</th>
-                    <td style="vertical-align: middle;">Rabella</td>
-                    <td style="vertical-align: middle;">Kisaran</td>
-                    <td style="vertical-align: middle;">bella</td>
-                    <td style="vertical-align: middle;">123</td>
+                    <td style="vertical-align: middle;">Edo</td>
+                    <td style="vertical-align: middle;">Teknisi</td>
+                    <td style="vertical-align: middle;">Edo69</td>
+                    <td style="vertical-align: middle;">Sagiriku69</td>
                     <td align="center"><span class="btn btn-success">&nbsp;Edit&ensp;</span></td>
                     <td align="center"><span class="btn btn-danger">Hapus</span></td>
                   </tr>
                   <tr>
                     <th scope="row" style="vertical-align: middle;">3</th>
-                    <td style="vertical-align: middle;">Rahma</td>
-                    <td style="vertical-align: middle;">Tanjung balai</td>
-                    <td style="vertical-align: middle;">rahma</td>
-                    <td style="vertical-align: middle;">123</td>
-                    <td align="center"><span class="btn btn-success">&nbsp;Edit&ensp;</span></td>
-                    <td align="center"><span class="btn btn-danger">Hapus</span></td>
-                  </tr>
-                  <tr>
-                    <th scope="row">4</th>
-                    <td style="vertical-align: middle;">Rahmat</td>
-                    <td style="vertical-align: middle;">Mandoge</td>
-                    <td style="vertical-align: middle;">math</td>
-                    <td style="vertical-align: middle;">123</td>
+                    <td style="vertical-align: middle;">Sagiri</td>
+                    <td style="vertical-align: middle;">Waiters</td>
+                    <td style="vertical-align: middle;">Sagiri86</td>
+                    <td style="vertical-align: middle;">Edikuu86</td>
                     <td align="center"><span class="btn btn-success">&nbsp;Edit&ensp;</span></td>
                     <td align="center"><span class="btn btn-danger">Hapus</span></td>
                   </tr>
@@ -126,8 +119,8 @@
     <div class="container mt-5">
       <div class="row">
         <div class="col text-center">
-          <a href="tambahAdmin.html" style="text-decoration: none;">
-            <img src="img/plus-circle-fill.svg" alt="" width="100px" style="opacity: 0.8;">
+          <a href="addKaryawan.html" style="text-decoration: none;">
+            <img src="/img/plus-circle-fill.svg" alt="" width="100px" style="opacity: 0.8;">
           </a>
         </div>
       </div>
