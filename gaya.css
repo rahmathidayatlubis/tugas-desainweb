@@ -21,5 +21,9 @@ body {
 }
 
 .btn-white:hover {
-    background-color: rgb(235, 235, 235);
+    background-color: #ccc;
+}
+
+.aktif {
+    background-color: #ccc;
 }
