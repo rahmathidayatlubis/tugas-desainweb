@@ -16,7 +16,7 @@
   </head>
   <body>
     <!-- sidebar -->
-    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left fixed-top" style="display:inline-block;" id="mySidebar">
+    <div class="w3-sidebar w3-bar-block w3-card fixed-top" style="display:inline-block;" id="mySidebar">
       <button class="item w3-button w3-xlarge"
       onclick="w3_close()">&#9776;</button>
       <div style="display: flex; justify-content: center;" class="pt-2">
@@ -171,10 +171,11 @@
   
     <!-- click sidebar -->
     <script>
-      function w3_open() {
+       function w3_open() {
         document.getElementById("main").style.marginLeft = "200px";
         document.getElementById("mySidebar").style.width = "200px";
         document.getElementById("mySidebar").style.display = "block";
+        document.getElementById("mySidebar").style.animation = "animateleft 0.4s";
         document.getElementById("openNav").style.display = 'none';
       }
       function w3_close() {
